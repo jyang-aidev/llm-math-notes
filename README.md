@@ -172,4 +172,4 @@ If you want to discuss ideas like:
 * LLM interpretability
 * theory vs practice gaps
 
-Feel free to reach out or start a
+Feel free to reach out or start a discussion.

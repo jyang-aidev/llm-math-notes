@@ -10,9 +10,9 @@ Large Language Models (LLMs) often produce outputs that are fluent but factually
 
 An LLM generates text by modeling a probability distribution:
 
-[
+$$
 P(x_t \mid x_1, x_2, ..., x_{t-1})
-]
+$$
 
 At each step, the model selects the next token based on this learned distribution. A *hallucination* occurs when:
 
@@ -28,9 +28,9 @@ This immediately suggests a key insight:
 
 LLMs are trained using Maximum Likelihood Estimation (MLE), minimizing:
 
-[
+$$
 \mathcal{L} = -\mathbb{E}*{(x_1,...,x_T) \sim D} \sum*{t=1}^T \log P_\theta(x_t \mid x_{<t})
-]
+$$
 
 This objective has two important consequences:
 
@@ -47,9 +47,9 @@ Let the true data distribution be (P^*(x)), and the model distribution be (P_\th
 
 Training minimizes KL divergence:
 
-[
+$$
 D_{KL}(P^* | P_\theta)
-]
+$$
 
 However:
 
@@ -59,9 +59,9 @@ However:
 
 Therefore:
 
-[
+$$
 P_\theta(x) \neq P^*(x)
-]
+$$
 
 Even with infinite compute, if the data itself is incomplete or inconsistent, the learned distribution cannot perfectly represent reality.
 
@@ -91,9 +91,9 @@ Mathematically, this is *extrapolation under uncertainty*, not retrieval.
 
 At each step, token probabilities are computed via softmax:
 
-[
+$$
 P(x_t = i) = \frac{e^{z_i}}{\sum_j e^{z_j}}
-]
+$$
 
 Key implication:
 
@@ -119,9 +119,9 @@ Let:
 
 If:
 
-[
+$$
 C < H(D)
-]
+$$
 
 Then information is lost during compression.
 
@@ -157,9 +157,9 @@ Thus, the optimization process implicitly favors *fluency over truth*.
 
 Reinforcement Learning from Human Feedback (RLHF) modifies the objective:
 
-[
+$$
 \max_\theta \mathbb{E}[R(x)]
-]
+$$
 
 But:
 
@@ -178,15 +178,15 @@ Thus RLHF shifts behavior but does not eliminate:
 
 We can reinterpret generation as:
 
-[
+$$
 P(x \mid \text{context}, \theta)
-]
+$$
 
 But the true objective is:
 
-[
+$$
 P(x \mid \text{context}, \text{world})
-]
+$$
 
 Since the model only approximates the world through data, there is always epistemic uncertainty.
 

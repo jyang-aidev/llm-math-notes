@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 What This Repo Is
+##  What This Repo Is
 
 This repository is a **systematic, math-first exploration of Large Language Models (LLMs)**.
 
@@ -21,7 +21,7 @@ If you've ever:
 
 ---
 
-## 🎯 Goals
+##  Goals
 
 * Build **first-principles understanding** of LLMs
 * Bridge the gap between **intuitive explanations and formal math**
@@ -30,7 +30,7 @@ If you've ever:
 
 ---
 
-## 🧠 Topics Covered
+##  Topics Covered
 
 This is an evolving series. Current and planned topics include:
 
@@ -72,7 +72,7 @@ This is an evolving series. Current and planned topics include:
 
 ---
 
-## 📚 Article Index
+##  Article Index
 
 | #  | Title                                    | Description                                  |
 | -- | ---------------------------------------- | -------------------------------------------- |
@@ -85,7 +85,7 @@ This is an evolving series. Current and planned topics include:
 
 ---
 
-## ✍️ Writing Style
+##  Writing Style
 
 Each article follows a consistent structure:
 
@@ -98,7 +98,7 @@ No hand-waving. No unexplained equations.
 
 ---
 
-## 👥 Who This Is For
+##  Who This Is For
 
 * ML engineers who want deeper understanding
 * Researchers exploring LLM behavior
@@ -107,7 +107,7 @@ No hand-waving. No unexplained equations.
 
 ---
 
-## 🔧 How to Use This Repo
+##  How to Use This Repo
 
 You can approach this in two ways:
 
@@ -125,7 +125,7 @@ Jump directly to a topic (e.g., hallucination, attention) depending on your inte
 
 ---
 
-## 💡 Key Philosophy
+##  Key Philosophy
 
 > LLMs do not "understand" language — they approximate probability distributions.
 
@@ -133,7 +133,7 @@ Everything in this repo builds on this idea.
 
 ---
 
-## 📈 Why This Matters
+##  Why This Matters
 
 Understanding the math allows you to:
 
@@ -144,7 +144,7 @@ Understanding the math allows you to:
 
 ---
 
-## 🤝 Contributions
+##  Contributions
 
 Contributions, discussions, and corrections are welcome.
 
@@ -158,13 +158,13 @@ Feel free to open an issue or PR.
 
 ---
 
-## ⭐ If You Find This Useful
+##  If You Find This Useful
 
 Give the repo a star and share it with others interested in LLMs.
 
 ---
 
-## 📬 Connect
+##  Connect
 
 If you want to discuss ideas like:
 
